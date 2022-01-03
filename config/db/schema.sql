@@ -7,7 +7,7 @@ USE employees;
 DROP TABLE IF EXISTS department,
                      role,
                      titles,
-                     employee;
+                     employee,
                      
                      
   CREATE TABLE department(
@@ -22,10 +22,17 @@ CREATE TABLE role(
     department_id INT
 );  
 
+CREATE TABLE titles(
+    id  INT PRIMARY KEY,
+    name  VARCHAR(30),
+    
+);  
+
 CREATE TABLE employee(
     id  INT PRIMARY KEY,
     first_name  VARCHAR(30),
     last_name VARCHAR(30),
     role_id INT,
     manager_id INT
-);             
+);         
+
