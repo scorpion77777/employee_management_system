@@ -25,7 +25,7 @@ Simple app for storing employees data,updating,deleting and much more...
 <a id="inst"></a>
 ## 2.Installation
 
-Start mysql then run node index.js after that follow the instructions first you need to create new Department /Sale/ then you need to create role /Sales specialist/ now we need to add employee and then we choose department for him /Sales/ and apply role /Sales spesialist/ Greate you just hierd new employee!!!👏
+Start mysql then run node index.js after that follow the instructions first you need to create new Department /Sale/ then you need to create role /Sales specialist/ now we need to add employee and then we choose department for him /Sales/ and apply role /Sales specialist/ Greate you just hierd new employee!!!👏
 
 <a id="use"></a>
 ## 3.Usage
